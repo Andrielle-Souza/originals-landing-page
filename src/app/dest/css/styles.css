@@ -36,7 +36,8 @@
   /* Hide the items when the select box is closed: */
 }
 .custom-select select {
-  display: none; /*hide original SELECT element: */
+  display: none;
+  /*hide original SELECT element: */
 }
 .custom-select .select-selected {
   background-color: inherit;
@@ -50,7 +51,7 @@
   content: "";
   width: 24px;
   height: 8px;
-  background: url(../../dest/assets/icon-dropdown.png);
+  background: url("../../../assets/icon-dropdown@3x.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 14px;
@@ -72,12 +73,14 @@
   -webkit-animation: slidedown 300ms ease-out 0s 1 both;
   animation: slidedown 300ms ease-out 0s 1 both;
 }
-.custom-select .select-items div, .custom-select .select-items .select-selected {
+.custom-select .select-items div,
+.custom-select .select-items .select-selected {
   color: #000;
   padding: 13px 0 9px 10px;
   cursor: pointer;
 }
-.custom-select .select-items div:hover, .custom-select .select-items .same-as-selected {
+.custom-select .select-items div:hover,
+.custom-select .select-items .same-as-selected {
   background-color: #000;
   color: #fff;
 }
@@ -808,6 +811,7 @@ textarea {
     background: none;
     -webkit-transition: all 1s;
     transition: all 1s;
+    z-index: 5;
   }
   .btn-contact-us::after {
     content: " ";
@@ -1276,9 +1280,10 @@ body .masker {
   -ms-flex-align: center;
   align-items: center;
   position: relative;
+  margin-top: 136px;
 }
 body .masker .success {
-  display: none !important;
+  display: none;
   opacity: 0;
   position: absolute;
   text-align: center;
@@ -1288,12 +1293,9 @@ body .masker .success {
   height: 100%;
   width: 77%;
   max-width: 780px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  opacity: 1;
 }
 body .masker .success .text {
+  color: #ffffff;
   width: 100%;
   text-align: center;
   padding-left: 12%;
@@ -1412,8 +1414,8 @@ body .masker .contact-us form .form-content .basic-info .column label {
 body .masker .contact-us form .form-content .basic-info .column input,
 body .masker .contact-us form .form-content .basic-info .column input:empty {
   float: right;
-  border-bottom: 1px solid #4f52c9;
-  color: #4f52c9;
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
   width: 240px;
   padding-bottom: 3px;
   padding-top: 5px;
@@ -1457,20 +1459,20 @@ body .masker .contact-us form .form-content .basic-info .column input:empty:inva
   border-bottom: 1px solid #ff527e;
 }
 body .masker .contact-us form .form-content .basic-info .column input::-webkit-input-placeholder, body .masker .contact-us form .form-content .basic-info .column input:empty::-webkit-input-placeholder {
-  color: #4f52c9;
+  color: #ffffff;
 }
 body .masker .contact-us form .form-content .basic-info .column input::-moz-placeholder, body .masker .contact-us form .form-content .basic-info .column input:empty::-moz-placeholder {
-  color: #4f52c9;
+  color: #ffffff;
 }
 body .masker .contact-us form .form-content .basic-info .column input:-ms-input-placeholder, body .masker .contact-us form .form-content .basic-info .column input:empty:-ms-input-placeholder {
-  color: #4f52c9;
+  color: #ffffff;
 }
 body .masker .contact-us form .form-content .basic-info .column input::-ms-input-placeholder, body .masker .contact-us form .form-content .basic-info .column input:empty::-ms-input-placeholder {
-  color: #4f52c9;
+  color: #ffffff;
 }
 body .masker .contact-us form .form-content .basic-info .column input::placeholder,
 body .masker .contact-us form .form-content .basic-info .column input:empty::placeholder {
-  color: #4f52c9;
+  color: #ffffff;
 }
 body .masker .contact-us form .radio-section {
   display: -webkit-box;
@@ -1513,10 +1515,10 @@ body .masker .contact-us form .radio-section .radio .checked1 {
   max-width: 16px;
   height: 16px;
   max-height: 16px;
-  background-color: #4f52c9;
+  background-color: #ffffff;
   position: static;
   border-radius: 50%;
-  margin-top: -1.47rem;
+  margin-top: -1.55rem;
   margin-left: 0.2937rem;
   margin-bottom: 0;
   display: none;
@@ -1527,10 +1529,10 @@ body .masker .contact-us form .radio-section .radio .checked2 {
   max-width: 16px;
   height: 16px;
   max-height: 16px;
-  background-color: #4f52c9;
+  background-color: #ffffff;
   position: static;
   border-radius: 50%;
-  margin-top: -1.47rem;
+  margin-top: -1.55rem;
   margin-left: 0.2935rem;
   margin-bottom: 0;
   display: none;
@@ -1541,10 +1543,10 @@ body .masker .contact-us form .radio-section .radio .checked3 {
   max-width: 16px;
   height: 16px;
   max-height: 16px;
-  background-color: #4f52c9;
+  background-color: #ffffff;
   position: static;
   border-radius: 50%;
-  margin-top: -1.47rem;
+  margin-top: -1.55rem;
   margin-left: 0.2935rem;
   display: none;
   opacity: 0;
@@ -1565,7 +1567,7 @@ body .masker .contact-us form .row-message {
 }
 body .masker .contact-us form .row-message textarea {
   resize: none;
-  border-bottom: 1px solid #4f52c9;
+  border-bottom: 1px solid #ffffff;
   padding-top: 10px;
   height: 150px;
   width: 100%;
@@ -1596,8 +1598,8 @@ body .masker .contact-us form .row-btn {
   padding-bottom: 40px;
 }
 body .masker .contact-us form .row-btn .btn-form {
-  border: 3px solid #4f52c9;
-  color: #4f52c9;
+  border: 3px solid #ffffff;
+  color: #ffffff;
   font-size: 17px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
@@ -1615,13 +1617,13 @@ body .masker .contact-us form .row-btn .btn-form {
 }
 body .masker .contact-us form .row-btn .btn-form::after {
   content: "";
-  background-color: #4f52c9;
+  background-color: #ffffff;
   display: inline-block;
   width: 21px;
   height: 21px;
   margin-left: 6px;
-  -webkit-mask-image: url("../assets/icon-seta.svg");
-  mask-image: url("../assets/icon-seta.svg");
+  -webkit-mask-image: url("../../assets/icon-seta@3x.svg");
+  mask-image: url("../../assets/icon-seta@3x.svg");
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   -webkit-mask-position: center;
@@ -1771,6 +1773,11 @@ body .footer-wrapper .geral .container-right .menu-geral .link-policy {
     top: 0;
     right: 0;
   }
+  html body header .header-wrapper {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
   html body header .header-wrapper .social-container-header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -1778,8 +1785,9 @@ body .footer-wrapper .geral .container-right .menu-geral .link-policy {
     flex-direction: column;
     display: table;
     position: absolute;
+    justify-self: center;
     top: 3%;
-    right: 18%;
+    right: max(259.2px, 18%, 50px);
   }
   html body header .header-wrapper .social-container-header .social-icons-header {
     display: -webkit-box;
@@ -2083,6 +2091,7 @@ body .footer-wrapper .geral .container-right .menu-geral .link-policy {
   html body .footer-wrapper {
     width: 100%;
     background-color: #191528;
+    margin-left: 30px;
   }
   html body .footer-wrapper .geral {
     width: 67%;
@@ -2172,4 +2181,30 @@ body .footer-wrapper .geral .container-right .menu-geral .link-policy {
 }
 .owl-theme .owl-nav [class*=owl-]:hover {
   background: none;
+}
+
+/* ------------------------------- Javascript ------------------------------- */
+.showFade {
+  display: block !important;
+  -webkit-animation: fadeIn 400ms linear 0ms 1 forwards;
+  animation: fadeIn 400ms linear 0ms 1 forwards;
+}
+
+.showLabel {
+  visibility: visible !important;
+  -webkit-animation: slideRight 150ms ease-in 0ms 1 forwards;
+  animation: slideRight 150ms ease-in 0ms 1 forwards;
+}
+
+.tksEnabled {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-animation: fadeIn 250ms ease-in 0ms 1 forwards;
+  animation: fadeIn 250ms ease-in 0ms 1 forwards;
+}
+
+.contentHidden {
+  -webkit-animation: fadeOut 250ms ease-out 0ms 1 forwards;
+  animation: fadeOut 250ms ease-out 0ms 1 forwards;
 }

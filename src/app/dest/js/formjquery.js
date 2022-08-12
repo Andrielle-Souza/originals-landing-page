@@ -1,17 +1,17 @@
 /* ----------------------------------- // ----------------------------------- */
 /* ------------------------------- phone mask ------------------------------- */
-    $('#form-phone').mask('(00) 00000-0000')
+$('#form-phone').mask('(00) 00000-0000')
 /* ----------------------------------- // ----------------------------------- */
 /* --------------------------------- submit --------------------------------- */
-function enableSuccess(){
+function enableSuccess() {
     $('.form-content').addClass('contentHidden')
-    this.setTimeout(()=>{
+    this.setTimeout(() => {
         $('.success').addClass('tksEnabled')
         $('.form-content').addClass('contentDisabled')
     }, 250)
 }
 
-$('#contact-us').on('submit', ()=>{
+$('.btn-form').on('click', () => {
     return enableSuccess()
 })
 

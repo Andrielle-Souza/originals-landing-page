@@ -80,6 +80,7 @@ $color2: #E2EF5C;
         align-items: center;
         background: none;
         transition: all 1s;
+        z-index: 5;
 
         &::after {
             content: ' ';

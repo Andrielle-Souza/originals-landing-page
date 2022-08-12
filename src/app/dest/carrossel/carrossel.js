@@ -11,6 +11,7 @@ $(document).ready(function enable() {
             seta1,
             seta2
         ],
+        animateOut: 'fadeOut',
         responsive: {
             0: {
                 items: 1

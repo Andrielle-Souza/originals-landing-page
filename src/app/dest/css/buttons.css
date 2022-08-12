@@ -86,6 +86,7 @@
     background: none;
     -webkit-transition: all 1s;
     transition: all 1s;
+    z-index: 5;
   }
   .btn-contact-us::after {
     content: " ";
