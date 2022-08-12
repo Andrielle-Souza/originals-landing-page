@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.54.4"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}
