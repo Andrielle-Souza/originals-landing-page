@@ -1,6 +1,17 @@
 
-# landing-page-originals-andri
-Project landing page originals prototype
+# Landing Page & Email Marketing
+O projeto consiste em uma Landing Page com um formulário de envio de dados para departamentos seletos da empresa
+
+## Tecnologias utilizadas
+- HTML
+- CSS
+- JS
+   -jquery
+- DOCKER
+
+## Comanandos para execução
+
+
 
 ## TO DO LIST
 1. repositorio git
