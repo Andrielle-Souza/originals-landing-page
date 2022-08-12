@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.54.4"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ]
+}

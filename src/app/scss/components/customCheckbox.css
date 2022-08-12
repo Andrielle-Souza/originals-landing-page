@@ -1,0 +1,99 @@
+@keyframes borderChangeAnim{
+    from{
+        border: 1px solid #ffffff;
+    }
+
+    to{
+        border: 1px solid #def034;
+    }
+}
+
+@keyframes colorChangeAnim{
+    from{
+        color: #ffffff;
+    }
+
+    to{
+        color: #def034;
+    }
+}
+  
+
+  .cs-cb-container {
+    display: flex;
+    position: relative;
+    padding-left: 42px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #ffffff;
+    font-family: arial, helvetica, sans-seriff;
+    min-height: 45px;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .cs-cb-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 23px;
+    width: 23px;
+    background-color: transparent;
+    border: 1px solid white;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .cs-cb-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .cs-cb-container input:checked ~ .cs-cb-container{
+     border: 1px solid #def034;
+  }
+  
+  /* Style the checkmark/indicator */
+  .cs-cb-container .checkmark:after {
+    left: 8px;
+    top: 0;
+    width: 8px;
+    height: 16px;
+    border: 1px solid #def034;
+    border-width: 0 1px 1px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    line-height: 16.8px;
+  }
+  
+  .borderChange{
+    animation: borderChangeAnim 200ms ease-in-out 0ms 1 forwards;
+    }
+  
+  .colorChange{
+    animation: colorChangeAnim 200ms ease-in-out 0ms 1 forwards;
+    }
+  
+    @media screen and (min-width: 550px){
+
+
+    }

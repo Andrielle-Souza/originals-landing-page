@@ -1,0 +1,86 @@
+@-webkit-keyframes slidedown {
+  from {
+    -webkit-transform: scaleY(0.1);
+    transform: scaleY(0.1);
+    opacity: 0.1;
+    top: -100%;
+  }
+  to {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    opacity: 1;
+    top: 100%;
+  }
+}
+@keyframes slidedown {
+  from {
+    -webkit-transform: scaleY(0.1);
+    transform: scaleY(0.1);
+    opacity: 0.1;
+    top: -100%;
+  }
+  to {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+    opacity: 1;
+    top: 100%;
+  }
+}
+/* The container must be positioned relative: */
+.custom-select {
+  position: relative;
+  font-family: Arial;
+  width: 83%;
+  max-width: 240px;
+  /* style the items (options), including the selected item: */
+  /* Hide the items when the select box is closed: */
+}
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+.custom-select .select-selected {
+  background-color: inherit;
+  border-bottom: 1px solid white;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 3px;
+}
+.custom-select .select-selected:after {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 8px;
+  background: url(../../dest/assets/icon-dropdown.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 14px;
+  bottom: 14px;
+  right: 0;
+}
+.custom-select .select-items {
+  position: absolute;
+  background-color: #fff;
+  top: -100%;
+  padding: 0;
+  padding-bottom: 10px;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  -webkit-transform: scaleY(0.1);
+  transform: scaleY(0.1);
+  opacity: 0.1;
+  -webkit-animation: slidedown 300ms ease-out 0s 1 both;
+  animation: slidedown 300ms ease-out 0s 1 both;
+}
+.custom-select .select-items div, .custom-select .select-items .select-selected {
+  color: #000;
+  padding: 13px 0 9px 10px;
+  cursor: pointer;
+}
+.custom-select .select-items div:hover, .custom-select .select-items .same-as-selected {
+  background-color: #000;
+  color: #fff;
+}
+.custom-select .select-hide {
+  display: none;
+}

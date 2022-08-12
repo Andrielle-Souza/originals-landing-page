@@ -1,0 +1,107 @@
+$color1: #E95F7F;
+$color2: #E2EF5C;
+
+.btn {
+
+    border: solid 3px $color1;
+    color: $color1;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 11px 13px 11px 17px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    background: none;
+    transition: all 1s;
+
+    &::after {
+        content: ' ';
+        background-color: $color1;
+        display: inline-block;
+        width: 21px;
+        height: 21px;
+        margin-left: 6px;
+        mask-image: url('/assets/icon-seta@3x.svg');
+        mask-repeat: no-repeat;
+        mask-position: center;
+        transition: all 1s;
+    }
+
+    &.btn-find-out-more {
+        width: 155px;
+        height: 36px;
+        padding: 0 0 0 23px;
+    }
+
+    &.btn-submit {
+        width: 116px;
+        height: 42px;
+        border-color: #fff;
+        color: #fff;
+
+        &::after {
+            content: ' ';
+            background-color: #fff;
+            display: inline-block;
+            width: 21px;
+            height: 21px;
+            padding-right: 12px;
+            margin-left: 6px;
+            mask-image: url('/assets/icon-seta@3x.svg');
+            mask-repeat: no-repeat;
+            mask-position: center;
+            transition: all 1s;
+        }
+    }
+
+    &:hover {
+        border-color: $color2;
+        color: $color2;
+
+        &::after {
+            background-color: $color2;
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .btn-contact-us {
+
+        border: solid 3px $color1;
+        color: $color1;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        padding: 11px 13px 11px 17px;
+        line-height: 22px;
+        display: flex;
+        align-items: center;
+        background: none;
+        transition: all 1s;
+
+        &::after {
+            content: ' ';
+            background-color: $color1;
+            display: inline-block;
+            width: 21px;
+            height: 21px;
+            margin-left: 6px;
+            mask-image: url('/assets/icon-seta@3x.svg');
+            mask-repeat: no-repeat;
+            mask-position: center;
+            transition: all 1s;
+        }
+
+        &:hover {
+            border-color: $color2;
+            color: $color2;
+
+            &::after {
+                background-color: $color2;
+            }
+        }
+    }
+
+}

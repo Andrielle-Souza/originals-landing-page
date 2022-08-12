@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Originals</title>
+    <!-- Jquery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--  Owl -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Jquery Mask -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"
+        integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer type="text/javascript" src="dest/js/form.js"></script>
+    <script defer type="text/javascript" src="dest/js/formjquery.js"></script>
+    <script defer type="text/javascript" src="dest/js/customSelect.js"></script>
+    <script defer type="text/javascript" src="dest/carrossel/carrossel.js"></script>
+    <script defer type="text/javascript" src="dest/js/site.js"></script>
+    <link rel="stylesheet" href="./dest/css/styles.css">
+</head>
+
+<body>
+    <!-- Botão flutuante - Contact us -->
+    <button class="btn-contact-us" id="main-button">contact us</button>
+    <!-- Fim do botão-flutuante -->
+
+    <!-- Header -->
+    <header>
+        <div class="header-wrapper">
+            <div class="logo-originals">
+                <!-- <img src="./assets/untitled-1-1@3x.png" alt="Logo Originals"> -->
+            </div>
+            <div class="social-container-header">
+                <ul class="social-icons-header">
+                    <li class="social-links-header">
+                        <a href="https://www.linkedin.com/company/hogarth-worldwide" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M11.05 8.44613C11.325 8.14538 11.55 7.81956 11.85 7.54387C12.725 6.71681 13.75 6.29074 14.975 6.3158C15.65 6.3158 16.3 6.36593 16.925 6.56643C18.3999 6.9925 19.25 7.995 19.65 9.44864C19.95 10.5263 20 11.6291 20.025 12.7318C20.025 15.0627 20.025 17.3935 20.025 19.7494C20.025 19.975 19.975 20.0251 19.75 20.0251C18.55 20.0251 17.35 20.0251 16.15 20.0251C15.95 20.0251 15.9 19.9499 15.9 19.7494C15.9 17.5188 15.9 15.3133 15.9 13.0827C15.9 12.5313 15.875 11.98 15.7 11.4286C15.425 10.4261 14.7 9.92483 13.65 9.97495C12.225 10.0501 11.475 10.7519 11.3 12.2055C11.25 12.5564 11.225 12.9073 11.225 13.2582C11.225 15.4135 11.225 17.594 11.225 19.7494C11.225 19.975 11.175 20.0251 10.95 20.0251C9.74995 20.0251 8.52495 20.0251 7.32495 20.0251C7.12495 20.0251 7.07495 19.975 7.07495 19.7744C7.07495 15.4887 7.07495 11.203 7.07495 6.91731C7.07495 6.71681 7.14995 6.66668 7.34995 6.66668C8.49995 6.66668 9.64995 6.66668 10.8 6.66668C11 6.66668 11.075 6.74187 11.05 6.94237C11.025 7.41856 11.05 7.91981 11.05 8.44613Z"
+                                    fill="#FEFEFE" />
+                                <path
+                                    d="M4.47495 13.3333C4.47495 15.4637 4.47495 17.5689 4.47495 19.6992C4.47495 19.9248 4.42495 20 4.17495 20C2.97495 19.9749 1.77495 20 0.574951 20C0.374951 20 0.324951 19.9499 0.324951 19.7494C0.324951 15.4637 0.324951 11.1779 0.324951 6.89223C0.324951 6.71679 0.374951 6.6416 0.549951 6.6416C1.77495 6.6416 2.97495 6.6416 4.19995 6.6416C4.42495 6.6416 4.47495 6.74185 4.47495 6.94235C4.44995 9.07268 4.47495 11.203 4.47495 13.3333Z"
+                                    fill="#FEFEFE" />
+                                <path
+                                    d="M4.8 2.38095C4.8 3.70927 3.725 4.78697 2.4 4.78697C1.1 4.81203 0 3.70927 0 2.40602C0 1.07769 1.075 0 2.4 0C3.725 0 4.8 1.07769 4.8 2.38095Z"
+                                    fill="#FEFEFE" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-links-header">
+                        <a href="https://www.instagram.com/hogarthworldwide/" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_105_97)">
+                                    <path
+                                        d="M10 2.50242C12.6588 2.50242 12.9882 2.50242 14.0471 2.54646C15.0118 2.59049 15.5529 2.74461 15.9059 2.87671C16.3765 3.05284 16.7059 3.25099 17.0588 3.58125C17.4118 3.9115 17.6235 4.21973 17.8118 4.66007C17.9529 4.99032 18.1176 5.47469 18.1647 6.3994C18.2118 7.39015 18.2118 7.67637 18.2118 10.1863C18.2118 12.6962 18.2118 12.9824 18.1647 13.9732C18.1176 14.8759 17.9529 15.3823 17.8118 15.7125C17.6235 16.1528 17.4118 16.4611 17.0588 16.7913C16.7059 17.1216 16.3765 17.3197 15.9059 17.4959C15.5529 17.628 15.0353 17.7821 14.0471 17.8261C12.9882 17.8702 12.6824 17.8702 10 17.8702C7.34118 17.8702 7.01176 17.8702 5.95294 17.8261C4.98824 17.7821 4.44706 17.628 4.09412 17.4959C3.62353 17.3197 3.29412 17.1216 2.94118 16.7913C2.58824 16.4611 2.37647 16.1528 2.18824 15.7125C2.04706 15.3823 1.88235 14.8979 1.83529 13.9732C1.78824 12.9824 1.78824 12.6962 1.78824 10.1863C1.78824 7.67637 1.78824 7.39015 1.83529 6.3994C1.88235 5.49671 2.04706 4.99032 2.18824 4.66007C2.37647 4.21973 2.58824 3.9115 2.94118 3.58125C3.29412 3.25099 3.62353 3.05284 4.09412 2.87671C4.44706 2.74461 4.96471 2.59049 5.95294 2.54646C7.01176 2.50242 7.34118 2.50242 10 2.50242ZM10 0.807129C7.29412 0.807129 6.94118 0.807129 5.88235 0.873179C4.82353 0.917213 4.09412 1.07133 3.45882 1.31352C2.8 1.5557 2.23529 1.86394 1.69412 2.39234C1.12941 2.92074 0.8 3.42713 0.541176 4.0436C0.282353 4.63805 0.117647 5.32057 0.0705882 6.31133C0 7.30209 0 7.63234 0 10.1643C0 12.6962 0 13.0265 0.0705882 14.0172C0.117647 15.008 0.282353 15.6905 0.541176 16.2849C0.8 16.9014 1.12941 17.4298 1.69412 17.9362C2.25882 18.4646 2.8 18.7728 3.45882 19.015C4.09412 19.2572 4.82353 19.4113 5.88235 19.4554C6.94118 19.5214 7.29412 19.5214 10 19.5214C12.7059 19.5214 13.0588 19.5214 14.1176 19.4554C15.1765 19.4113 15.9059 19.2572 16.5412 19.015C17.2 18.7728 17.7647 18.4646 18.3059 17.9362C18.8706 17.4078 19.2 16.9014 19.4588 16.2849C19.7176 15.6905 19.8824 15.008 19.9294 14.0172C20 13.0265 20 12.6962 20 10.1643C20 7.63234 20 7.30209 19.9294 6.31133C19.8824 5.32057 19.7176 4.63805 19.4588 4.0436C19.2 3.42713 18.8706 2.89873 18.3059 2.39234C17.7412 1.86394 17.2 1.5557 16.5412 1.31352C15.9059 1.07133 15.1765 0.917213 14.1176 0.873179C13.0588 0.807129 12.7059 0.807129 10 0.807129Z"
+                                        fill="white" />
+                                    <path
+                                        d="M9.99999 5.3645C7.15293 5.3645 4.87057 7.52215 4.87057 10.1642C4.87057 12.8062 7.17646 14.9638 9.99999 14.9638C12.847 14.9638 15.1294 12.8062 15.1294 10.1642C15.1294 7.52215 12.847 5.3645 9.99999 5.3645ZM9.99999 13.2906C8.16469 13.2906 6.65881 11.9035 6.65881 10.1642C6.65881 8.42484 8.14116 7.03778 9.99999 7.03778C11.8588 7.03778 13.3412 8.42484 13.3412 10.1642C13.3412 11.9035 11.8353 13.2906 9.99999 13.2906Z"
+                                        fill="white" />
+                                    <path
+                                        d="M15.3412 6.28942C16.0039 6.28942 16.5412 5.7867 16.5412 5.16656C16.5412 4.54642 16.0039 4.0437 15.3412 4.0437C14.6784 4.0437 14.1412 4.54642 14.1412 5.16656C14.1412 5.7867 14.6784 6.28942 15.3412 6.28942Z"
+                                        fill="white" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_105_97">
+                                        <rect width="20" height="18.7143" fill="white"
+                                            transform="translate(0 0.807129)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-links-header">
+                        <a href="https://twitter.com/hogarthww" target="_blank">
+                            <svg width="20" height="17" viewBox="0 0 20 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.29291 16.2471C13.8444 16.2471 17.9634 10 17.9634 4.57666C17.9634 4.39359 17.9634 4.23341 17.9405 4.05034C18.7414 3.47826 19.4279 2.746 19.9771 1.9222C19.2449 2.24256 18.4439 2.4714 17.6201 2.56293C18.4897 2.0595 19.1304 1.25858 19.4508 0.297483C18.6499 0.778032 17.7803 1.0984 16.8421 1.30435C16.087 0.503432 15.0114 0 13.8444 0C11.5789 0 9.74828 1.83066 9.74828 4.09611C9.74828 4.41648 9.79405 4.73684 9.8627 5.03432C6.4302 4.87414 3.40961 3.22654 1.39588 0.755149C1.05263 1.35011 0.846682 2.0595 0.846682 2.81465C0.846682 4.23341 1.57895 5.49199 2.67735 6.22426C2.01373 6.20137 1.373 6.01831 0.823799 5.72082C0.823799 5.74371 0.823799 5.74371 0.823799 5.76659C0.823799 7.75744 2.24256 9.40503 4.11899 9.79405C3.77574 9.88558 3.40961 9.93135 3.04348 9.93135C2.76888 9.93135 2.51716 9.90847 2.26545 9.8627C2.79176 11.4874 4.30206 12.6773 6.08696 12.7002C4.69108 13.7986 2.90618 14.4622 0.983982 14.4622C0.663616 14.4622 0.320366 14.4394 0 14.4165C1.80778 15.5606 3.98169 16.2471 6.29291 16.2471Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-links-header">
+                        <a href="https://www.facebook.com/hogarthww" target="_blank">
+                            <svg width="10" height="19" viewBox="0 0 10 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.33628 10.6176L9.84513 7.19765H6.61504V4.98471C6.61504 4.04588 7.05752 3.15176 8.5177 3.15176H10V0.223529C10 0.223529 8.67257 0 7.38938 0C4.71239 0 2.9646 1.63176 2.9646 4.58235V7.17529H0V10.5953H2.9646V18.8435C3.56195 18.9329 4.15929 18.9776 4.80089 18.9776C5.44248 18.9776 6.03982 18.9329 6.63717 18.8435V10.6176H9.33628Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- Fim do Header -->
+
+    <!-- Content -->
+    <div class="content">
+        <!-- Main Banner -->
+        <div class="banner-wrapper">
+            <div class="main-banner">
+                <div class="main-image">
+                    <img src="./assets/Maskgroup-web@2x.png" alt="Main Banner">
+                </div>
+                <div class="green-square">
+                </div>
+                <!-- Caixa de texto -->
+                <div class="box-text-banner">
+                    <div class="title">
+                        <p>
+                            life<br>@Hogarth
+                        </p>
+                    </div>
+                    <div class="subtitle">
+                        <p>
+                            We are a diverse mix of cultures, communities, people and professions, driven by
+                            the same sense of energy and unrivalled commitment to our clients and, just as importantly,
+                            to each other.
+                        </p>
+                    </div>
+                </div>
+                <!-- Alterar o Botão - Não está acesssível -->
+                <div class="btn-box">
+                    <div class="btn btn-find-out-more">
+                        <span>find out more</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Our Values Início -->
+        <div class="values-wrapper">
+            <div class="container-values">
+                <div class="container-content">
+                    <!-- Textos Values -->
+                    <div class="column-text">
+                        <ul class="values">
+                            <li class="active">
+                                <h2>our values</h2>
+                                <br>
+                                <h3>heart & soul</h3>
+                                <br>
+                                <p>
+                                    We love what we do.<br><br>
+                                    We bring energy and enthusiasm to all of our work. Our will to succeed is what make
+                                    us
+                                    different.<br><br>
+                                    We push boundaries, we are never satisfied and always want to find
+                                    a better way.<br> We don’t believe in the status quo.
+                                </p>
+                            </li>
+                            <li>
+                                <h2>our values</h2>
+                                <br>
+                                <h3>hands-on</h3>
+                                <br>
+                                <p>
+                                    We don’t wait around for things to happen. We get it done.<br><br>
+                                    We are pragmatic and don’t have an ego. We work hard.<br><br>
+                                    No shortcuts, no compromises. We do what it takes to get the job done to the highest
+                                    standards.
+                                </p>
+                            </li>
+                            <li>
+                                <h2>our values</h2>
+                                <br>
+                                <h3>honesty</h3>
+                                <br>
+                                <p>
+                                    We are straightforward. We speak openly and clearly.<br><br>
+                                    We give direct messages. It’s not always easy, it’s sometimes uncomfortable, but
+                                    it’s the right thing to do.<br><br>
+                                    We operate with integrity and live up to our promises.
+                                </p>
+                            </li>
+                            <li>
+                                <h2>our values</h2>
+                                <br>
+                                <h3>happy family</h3>
+                                <br>
+                                <p>
+                                    We like each other and enjoy working together. We look out for our
+                                    colleagues.<br><br>
+                                    We are an eclectic bunch. That’s good. We want to work with interesting people from
+                                    many cultures.<br><br>
+                                    We demand great things of each other, but even when things are tough, we don’t lose
+                                    perspective. And we never lose our sense of humour.
+                                </p>
+                            </li>
+                            <li>
+                                <h2>our values</h2>
+                                <br>
+                                <h3>hungry</h3>
+                                <br>
+                                <p>
+                                    We are an inquisitive community.<br><br>
+                                    We want to create an environment which inspires ourselves and others to be
+                                    better.<br><br>
+                                    It is important to continuously challenge ourselves and our ways of working.<br><br>
+                                    We aim to provide staff with the opportunities to develop and learn.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Ícones -->
+                    <div class="column-icons">
+                        <ul class="icons">
+                            <li class="active">
+                                <span class="icon">
+                                    <svg width="49" height="40" viewBox="0 0 49 40" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M24.5 24.2C24.9 23.9 25.4 23.6 25.8 23.3C30.4 19.7 32.8 15.9 32.8 11.8C32.8 7.40002 30.6 4.00003 27.2 2.80002C24.3 1.80002 21.4 2.60002 19.7 4.90002L18.9 6.00002L18.1 4.90002C16.4 2.60002 13.4 1.80002 10.5 2.80002C7.1 4.00003 4.9 7.40002 4.9 11.8C4.9 14.9 6.2 17.8 8.8 20.6C9.4 20.3 10.1 20.1 10.7 20.1H20.5C22.7 20.1 24.4 21.9 24.4 24C24.5 24 24.5 24.1 24.5 24.2ZM7.4 22H3.9C1.8 22 0 20.2 0 18C0 16.1 1.3 14.5 3.2 14.1C3 13.3 3 12.5 3 11.7C3 6.50002 5.7 2.40002 9.9 0.900025C13.2 -0.299975 16.6 0.500025 18.9 2.80002C21.2 0.500025 24.6 -0.199975 27.8 0.900025C31 2.00003 33.4 4.70003 34.3 8.30002C42.5 9.00002 49 15.7 49 23.9C49 32.6 41.7 39.6 32.8 39.6H19.6C17.5 39.6 15.7 37.9 15.7 35.7C15.7 35 15.9 34.3 16.2 33.7H13.7C11.5 33.7 9.8 31.9 9.8 29.8C9.8 29.1 10 28.4 10.3 27.8C8.1 27.6 6.6 25.6 6.8 23.5C6.9 22.9 7.1 22.4 7.4 22ZM10.8 25.9H20.6C21.7 25.9 22.6 25 22.6 23.9C22.6 22.8 21.7 21.9 20.6 21.9H10.8C9.7 21.9 8.8 22.8 8.8 23.9C8.8 25 9.7 25.9 10.8 25.9ZM13.7 27.8C12.6 27.8 11.7 28.7 11.7 29.8C11.7 30.9 12.6 31.8 13.7 31.8H23.5C24.6 31.8 25.5 30.9 25.5 29.8C25.5 28.7 24.6 27.8 23.5 27.8H13.7ZM27.4 29.8C27.4 30.5 27.2 31.2 26.9 31.8H29.4C31.5 31.8 33.3 33.5 33.3 35.7C33.3 36.4 33.1 37.1 32.8 37.7C40.7 37.7 47 31.5 47 24C47 17 41.6 11.2 34.6 10.4C34.6 10.9 34.7 11.4 34.7 11.8C34.7 16.6 32 21 27 24.9C26.4 25.4 25.8 25.8 25.1 26.3C26.5 26.8 27.4 28.2 27.4 29.8ZM19.6 37.6H29.4C30.5 37.6 31.4 36.7 31.4 35.6C31.4 34.5 30.5 33.6 29.4 33.6H19.6C18.5 33.6 17.6 34.5 17.6 35.6C17.6 36.8 18.5 37.6 19.6 37.6ZM3.7 16.1C2.7 16.2 2 17 2 18C2 19.1 2.9 20 4 20H5.9C4.9 18.7 4.2 17.4 3.7 16.1Z"
+                                            fill="#E95F7F" />
+                                    </svg>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="icon">
+                                    <svg width="29" height="45" viewBox="0 0 29 45" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M27 32.481V14.5217C27 12.3267 26.4001 11.4287 25.2001 11.4287C24 11.4287 23.4 12.3267 23.4 14.5217V21.5059C23.4 22.0047 23 22.4038 22.5 22.4038C22 22.4038 21.6 22.0047 21.6 21.5059V14.5217C21.6 14.422 21.6 14.3222 21.6 14.2224V14.1226V8.33577C21.6 6.14075 21 5.24279 19.8 5.24279C18.6 5.24279 18 6.14075 18 8.33577V21.5059C18 22.0047 17.6 22.4038 17.1 22.4038C16.6 22.4038 16.2 22.0047 16.2 21.5059V8.33577C16.2 8.23599 16.2 8.13622 16.2 8.03645V7.93667V5.64188C16.2 3.44686 15.6 2.5489 14.4 2.5489C13.2 2.5489 12.6 3.44686 12.6 5.64188V21.4061C12.6 21.905 12.2 22.3041 11.7 22.3041C11.2 22.3041 10.8 21.905 10.8 21.4061V7.8369C10.8 5.64188 10.2 4.74392 9.00002 4.74392C7.80001 4.74392 7.20001 5.64188 7.20001 7.8369V29.7871C7.20001 30.2859 6.80001 30.685 6.30001 30.685C5.80001 30.685 5.40001 30.2859 5.40001 29.7871V22.8029C5.40001 20.6079 4.80001 19.7099 3.60001 19.7099C2.4 19.7099 1.8 20.6079 1.8 22.8029V32.481C1.8 38.7667 6.90001 43.057 14.4 43.057C21.9 42.9572 27 38.6669 27 32.481ZM28.8001 33.778C28.2 40.4628 22.4 44.7531 14.4 44.7531C5.90001 44.7531 0 39.7644 0 32.481V22.8029C0 19.7099 1.2 18.0138 3.60001 18.0138C4.30001 18.0138 4.90001 18.2133 5.40001 18.4129V7.8369C5.40001 4.74392 6.60001 3.04777 9.00002 3.04777C9.80002 3.04777 10.5 3.24732 11 3.64641C11.5 1.85049 12.6 0.852753 14.4 0.852753C16.3 0.852753 17.5 1.95026 17.9 4.04551C18.4 3.64641 19.1 3.54664 19.8 3.54664C22.2 3.54664 23.4 5.34256 23.4 8.33577V10.1317C23.9 9.83237 24.5001 9.7326 25.2001 9.7326C27.6001 9.7326 28.8001 11.5285 28.8001 14.5217V33.778Z"
+                                            fill="#E95F7F" />
+                                    </svg>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="icon">
+                                    <svg width="28" height="45" viewBox="0 0 28 45" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M21.1 23.4561V6.79395C21.1 5.79621 20.3 4.99802 19.3 4.99802C18.3 4.99802 17.6 5.79621 17.6 6.79395V19.964C17.6 20.4629 17.2 20.862 16.7 20.862C16.2 20.862 15.8 20.4629 15.8 19.964V4.10006C15.8 3.10233 15 2.30414 14 2.30414C13 2.30414 12.2 3.10233 12.2 4.10006V19.8643C12.2 20.3631 11.8 20.7622 11.3 20.7622C10.8 20.7622 10.4 20.3631 10.4 19.8643V6.79395C10.4 5.79621 9.59999 4.99802 8.59999 4.99802C7.59999 4.99802 6.79999 5.79621 6.79999 6.79395V25.252C6.79999 27.1477 5.29999 28.7441 3.3 28.7441C2.6 28.7441 2.1 28.5446 1.5 28.2452V30.0412C1.5 36.9255 7.09999 42.8122 14.3 42.8122C21.2 42.8122 25.7 37.3246 25.7 30.0412C25.7 27.1477 24.2 25.252 20.9 25.252H13.4C12.4 25.252 11.6 26.0502 11.6 27.048C11.6 28.0457 12.4 28.8439 13.4 28.8439H21.8C22.3 28.8439 22.7 29.243 22.7 29.7419C22.7 30.2407 22.3 30.6398 21.8 30.6398H13.4C11.5 30.6398 9.89999 29.0434 9.89999 27.1477C9.89999 25.252 11.4 23.6557 13.4 23.6557C13.7 23.4561 21.1 23.4561 21.1 23.4561ZM27.7 30.0412C27.7 38.1228 22.4 44.5083 14.5 44.5083C6.29999 44.5083 0 37.8235 0 30.0412V17.2702C0 15.3745 1.6 13.7781 3.49999 13.7781C4.09999 13.7781 4.69999 13.9776 5.29999 14.277V6.79395C5.29999 4.89825 6.89999 3.30187 8.79998 3.30187C9.39998 3.30187 9.99998 3.50142 10.6 3.80074C10.8 2.00482 12.3 0.707764 14.1 0.707764C15.9 0.707764 17.4 2.00482 17.6 3.80074C18.1 3.50142 18.8 3.30187 19.4 3.30187C21.3 3.30187 22.9 4.89825 22.9 6.79395V23.5559C26.1 24.2543 27.7 26.7486 27.7 30.0412ZM1.8 25.1523C1.8 26.15 2.6 26.9482 3.6 26.9482C4.6 26.9482 5.4 26.15 5.4 25.252V17.3699C5.4 16.3722 4.6 15.574 3.6 15.574C2.6 15.574 1.8 16.3722 1.8 17.3699C1.8 17.2702 1.8 25.1523 1.8 25.1523Z"
+                                            fill="#E95F7F" />
+                                    </svg>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="icon">
+                                    <svg width="44" height="43" viewBox="0 0 44 43" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M5.875 26.9846L4.27499 25.488C-1.425 19.8009 -1.425 10.5219 4.27499 4.83485C9.27499 -0.0540554 16.975 -0.852244 22.675 2.93915C28.175 -0.353376 34.975 0.145492 39.675 4.83485C45.375 10.5219 45.375 19.8009 39.675 25.488L37.875 27.2839L38.775 28.1819C40.1749 29.5787 40.0749 31.6739 38.775 33.0708C38.375 33.4699 37.775 33.7692 37.175 33.9687C38.575 35.3656 38.475 37.4608 37.175 38.8576C35.875 40.1547 33.675 40.2545 32.275 38.8576C32.075 39.4563 31.775 39.9552 31.375 40.3542C30.075 41.6513 27.875 41.7511 26.475 40.3542L24.875 38.7579C24.775 38.9574 24.575 39.2567 24.375 39.4563L22.575 41.2522C21.175 42.649 18.975 42.5493 17.675 41.2522C16.975 40.5538 16.575 39.5561 16.675 38.5583C15.675 38.6581 14.675 38.259 13.975 37.5606C13.275 36.8622 12.875 35.8644 12.975 34.8667C11.975 34.9665 10.975 34.5674 10.275 33.869C9.57499 33.1705 9.17499 32.1728 9.27499 31.1751C8.27499 31.2748 7.27499 30.8758 6.57499 30.1773C5.87499 29.4789 5.575 28.1819 5.875 26.9846ZM6.77499 25.488L10.475 21.8961C11.775 20.5991 13.975 20.4993 15.375 21.8961C15.775 22.2952 16.075 22.8939 16.275 23.4925C17.675 22.395 19.675 22.4948 20.875 23.6921C21.475 24.2907 21.775 25.0889 21.875 25.8871L33.675 37.6604C34.375 38.3588 35.475 38.3588 36.075 37.6604C36.775 36.9619 36.775 35.8644 36.075 35.2658L22.675 21.8961C22.375 21.5968 22.375 20.9982 22.675 20.6988C22.975 20.3995 23.575 20.3995 23.875 20.6988L35.175 31.9733C35.875 32.6717 36.975 32.6717 37.575 31.9733C38.275 31.2748 38.275 30.1773 37.575 29.5787L21.375 13.5152L18.275 16.5084C16.875 17.9052 14.675 17.8054 13.375 16.5084C12.075 15.2113 11.975 13.0163 13.375 11.6195L19.475 5.53326C19.975 5.0344 20.575 4.53553 21.075 4.13643C16.075 1.243 9.57499 1.94142 5.375 6.13191C0.275005 11.1206 0.275005 19.302 5.375 24.3905C5.575 24.2907 6.77499 25.488 6.77499 25.488ZM36.675 26.0866L38.4749 24.2907C43.5749 19.302 43.5749 11.1206 38.4749 6.03213C33.575 1.14323 25.975 1.44255 20.775 6.63077L14.675 12.717C13.975 13.4154 13.975 14.5129 14.675 15.1115C15.375 15.8099 16.475 15.8099 17.075 15.1115L22.875 9.32466C23.175 9.02534 23.775 9.02534 24.075 9.32466C24.375 9.62398 24.375 10.2226 24.075 10.5219L22.575 12.0185C22.675 12.1183 36.675 26.0866 36.675 26.0866ZM21.375 27.7828C21.275 27.8825 21.175 28.0821 21.075 28.1819C21.675 28.3814 22.175 28.6807 22.675 29.0798C23.875 30.2771 23.975 32.2726 22.975 33.6694C24.375 34.0685 25.475 35.2658 25.575 36.7624L27.975 39.157C28.675 39.8554 29.775 39.8554 30.375 39.157C31.075 38.4585 31.075 37.361 30.375 36.7624C30.275 36.6626 21.375 27.7828 21.375 27.7828ZM14.075 32.7715L19.575 27.2839C20.275 26.5855 20.175 25.488 19.575 24.8893C18.875 24.1909 17.775 24.1909 17.175 24.8893L11.675 30.3769C10.975 31.0753 10.975 32.1728 11.675 32.7715C12.375 33.3701 13.475 33.3701 14.075 32.7715ZM18.975 30.2771L15.275 33.9687C14.575 34.6671 14.575 35.7647 15.275 36.3633C15.975 37.0617 17.075 37.0617 17.675 36.3633L21.375 32.6717C22.075 31.9733 21.975 30.8758 21.375 30.2771C20.775 29.6785 19.675 29.6785 18.975 30.2771ZM14.075 25.488C14.775 24.7896 14.675 23.6921 14.075 23.0934C13.375 22.395 12.275 22.395 11.675 23.0934L7.97499 26.785C7.27499 27.4834 7.27499 28.581 7.97499 29.1796C8.67498 29.878 9.77499 29.878 10.375 29.1796C10.475 29.0798 14.075 25.488 14.075 25.488ZM20.775 35.7647L18.975 37.5606C18.275 38.259 18.275 39.3565 18.975 39.9552C19.675 40.6536 20.775 40.6536 21.375 39.9552L23.175 38.1592C23.875 37.4608 23.775 36.3633 23.175 35.7647C22.575 35.0662 21.475 35.0662 20.775 35.7647Z"
+                                            fill="#E95F7F" />
+                                    </svg>
+                                </span>
+                            </li>
+                            <li>
+                                <span class="icon">
+                                    <svg width="29" height="43" viewBox="0 0 29 43" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M19.7 0.413269C21.7 0.413269 23.3 2.00965 23.3 4.00512V21.266C26.6 21.9644 28.3 24.4587 28.3 27.851C28.3 36.1322 22.9 42.7173 14.8 42.7173C6.40001 42.7173 0 35.9327 0 27.851V14.8804C0 12.885 1.6 11.2886 3.60001 11.2886C4.30001 11.2886 4.90001 11.4881 5.40001 11.7875C5.50001 11.7875 5.50001 11.8872 5.60001 11.987C6.10001 10.4904 7.50001 9.59244 9.00002 9.59244C9.70002 9.59244 10.4 9.79199 11 10.1911C11.4 8.59471 12.7 7.59697 14.3 7.59697C15 7.59697 15.6 7.79652 16.1 8.09584V4.00512C16.1 2.00965 17.7 0.413269 19.7 0.413269ZM21.5 22.8623H13.8C12.8 22.8623 12 23.6605 12 24.6583C12 25.656 12.8 26.4542 13.8 26.4542H22.3C22.8 26.4542 23.2 26.8533 23.2 27.3522C23.2 27.851 22.8 28.2501 22.3 28.2501H13.8C11.8 28.2501 10.2 26.6537 10.2 24.6583C10.2 24.5585 10.2 24.4587 10.2 24.3589C9.80002 24.5585 9.30001 24.6583 8.80001 24.6583C8.10001 24.6583 7.40001 24.4587 6.80001 24.0596C6.30001 25.4565 4.90001 26.4542 3.40001 26.4542C2.80001 26.4542 2.1 26.2546 1.6 25.9553V27.7512C1.6 34.8352 7.30001 40.8216 14.7 40.8216C21.7 40.8216 26.4001 35.1345 26.4001 27.7512C26.4001 24.8578 24.8 22.9621 21.5 22.8623ZM3.50001 12.9847C2.5 12.9847 1.7 13.7829 1.7 14.7807V22.8623C1.7 23.8601 2.5 24.6583 3.50001 24.6583C4.50001 24.6583 5.30001 23.8601 5.30001 22.8623V14.7807C5.30001 13.7829 4.40001 12.9847 3.50001 12.9847ZM8.90002 11.1888C7.90002 11.1888 7.10001 11.987 7.10001 12.9847V21.0664C7.10001 21.3657 7.20001 21.5653 7.30001 21.7648C7.60001 22.3635 8.10001 22.7626 8.80001 22.7626H9.00002C10 22.7626 10.7 21.9644 10.8 21.0664V20.9666V12.885V12.7852C10.6 11.987 9.80002 11.1888 8.90002 11.1888ZM19.7 2.20919C18.7 2.20919 17.9 3.00738 17.9 4.00512V21.0664H21.5V4.00512V3.90535C21.4 3.00738 20.6 2.20919 19.7 2.20919ZM14.3 9.3929C13.3 9.3929 12.5 10.1911 12.5 11.1888V19.2705V19.3703C12.6 20.1684 13.2 20.8669 14.1 21.0664C14.3 21.0664 14.5 21.0664 14.7 21.0664C15.6 20.8669 16.2 20.1685 16.2 19.2705V11.1888V11.089C16 10.1911 15.2 9.3929 14.3 9.3929Z"
+                                            fill="#E95F7F" />
+                                    </svg>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quadrado amarelo -->
+        <div class="yellow-square"></div>
+        <!-- Our Values Final -->
+
+        <!-- Animação -->
+        <div class="animation-wrapper">
+            <div class="row">
+                <div class="column">
+
+                    <!-- Imagem que deveria ser um GIF -->
+                    <div class="animation">
+                        <img src="./assets/Gif@3x.png" alt="animação">
+                    </div>
+
+                    <!-- Botão mobileOnly -->
+                    <button class="btn-contact-mob">
+                        contact us
+                    </button>
+
+                    <div class="box-text-news">
+                        <ul class="bullet-points">
+                            <li class="bullet-points">scale and expertise</li>
+                            <li class="bullet-points">craft</li>
+                            <li class="bullet-points">performance</li>
+                            <li class="bullet-points">innovation</li>
+                            <li class="bullet-points">agility</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Final da Animação -->
+
+        <!-- Carrossel -->
+        <div class="carousel-wrapper">
+            <div class="about-the-hogarth-world">
+                around the hogarth world
+            </div>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="assets/Imagem4.jpg" alt="Foto 1">
+                </div>
+                <div class="item">
+                    <img src="assets/Imagem3.jpg" alt="Foto 2">
+                </div>
+                <div class="item">
+                    <img src="assets/Imagem2.jpg" alt="Foto 3">
+                </div>
+                <div class="item">
+                    <img src="assets/Imagem1.jpg" alt="Foto 4">
+                </div>
+            </div>
+        </div>
+
+        <!-- Formulário -->
+        <div class="masker">
+            <div class="success">
+                <div class="text">
+                    <h1>Thank you!</h1>
+                    <p>Your message was submited successfully, and we’ll be answering it soon :)</p>
+                    <p>We appreciate your contact!</p>
+                </div>
+            </div>
+            <div class="contact-us">
+                <form action="" method="POST" id="contact-us">
+                    <div class="form-content">
+                        <legend>contact us</legend>
+                        <div class="row basic-info">
+                            <div class="field text column">
+                                <label class="biInputLabel1" for="name">* name</label>
+                                <input class="biInput1" type="text" name="name" placeholder="* name" id="bi-fc"
+                                    required>
+                            </div>
+                            <div class="field text column">
+                                <label class="biInputLabel2" for="email_address">* email address</label>
+                                <input class="biInput2" type="email" name="email_address" placeholder="* email address"
+                                    required>
+                            </div>
+                            <div class="field text column">
+                                <label class="biInputLabel3" for="phone">* phone</label>
+                                <input class="biInput3" type="tel" name="phone" id="form-phone"
+                                    placeholder="* (99) 99999-9999" required>
+                            </div>
+                        </div>
+                        <div class="row row-to">
+                            <label for="">to:</label>
+                        </div>
+                        <div class="row radio-section">
+                            <div class="radio col checkerContainer">
+                                <label for="to">
+                                    <input type="radio" id="radio1" name="to" value="hr" required>
+                                    HR<div class="checked1 check"></div>
+                                </label>
+                            </div>
+                            <div class="radio col">
+                                <label for="to">
+                                    <input type="radio" id="radio2" name="to" value="commercial">
+                                    Commercial <div class="checked2 check"></div>
+                                </label>
+                            </div>
+                            <div class="radio col">
+                                <label for="to">
+                                    <input type="radio" id="radio3" name="to" value="finnance">
+                                    Finnance <div class="checked3 check"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row row-subject">
+                            <label for="subject" class="subject-label">* &nbsp; subject</label>
+                            <div class="custom-select">
+                                <select name="subject">
+                                    <option value="" required>select</option>
+                                    <option value="New Business">New Business</option>
+                                    <option value="Careers">Careers</option>
+                                    <option value="General enquiry">General enquiry</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row row-label">
+                            <label for="">* message</label>
+                        </div>
+                        <div class="row row-message">
+                            <textarea name="message" valign="bottom" id="" cols="15" rows="10" required
+                                wrap="hard"></textarea>
+                        </div>
+                        <div class="row row-subscription">
+                            <label class="cs-cb-container"><span>I want to subscribe to Hogarth’s Newsletter</span>
+                                <input type="checkbox" class="cs-check">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                        <div class="row row-btn">
+                            <button class="btn-form submit" type="submit">send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="after-form"></div>
+        </div>
+        <!-- Final Formulário -->
+    </div>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <!-- Inicio do Footer -->
+        <div class="footer-wrapper">
+            <!-- Logo Hogarth -->
+            <div class="geral">
+                <div class="container-left">
+                    <div class="hogarth">
+                        <img src="./assets/Logo-brand@3x.png" alt="Logo-Hogarth">
+                    </div>
+
+                    <!-- Termos -->
+                    <div class="menu-footer">
+                        <ul class="text-terms">
+                            <li class="link-terms">
+                                <a href="https://www.hogarth.com/contact#enquiries" target="_blank"
+                                    style=" color:#ffffff; text-decoration:none;">contact us</a>
+                            </li>
+                            <li class="link-terms">
+                                <a href="https://www.hogarth.com/contact#enquiries" target="_blank"
+                                    style=" color:#ffffff; text-decoration:none;">general</a>
+                            </li>
+                            <li class="link-terms">
+                                <a href="https://www.hogarth.com/contact#careers" target="_blank"
+                                    style=" color:#ffffff; text-decoration:none;">careers</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Redes Sociais -->
+                    <div class="container-social-links">
+                        <ul class="social-links">
+                            <li class="social-floot">
+                                <a href="https://www.linkedin.com/company/hogarth-worldwide/" target="_blank">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_8_2)">
+                                            <path
+                                                d="M11.05 8.44613C11.325 8.14538 11.55 7.81956 11.85 7.54387C12.725 6.71681 13.75 6.29074 14.975 6.3158C15.65 6.3158 16.3 6.36593 16.925 6.56643C18.4 6.9925 19.25 7.995 19.65 9.44864C19.95 10.5263 20 11.6291 20.025 12.7318C20.025 15.0627 20.025 17.3935 20.025 19.7494C20.025 19.975 19.975 20.0251 19.75 20.0251C18.55 20.0251 17.35 20.0251 16.15 20.0251C15.95 20.0251 15.9 19.9499 15.9 19.7494C15.9 17.5188 15.9 15.3133 15.9 13.0827C15.9 12.5313 15.875 11.98 15.7 11.4286C15.425 10.4261 14.7 9.92483 13.65 9.97495C12.225 10.0501 11.475 10.7519 11.3 12.2055C11.25 12.5564 11.225 12.9073 11.225 13.2582C11.225 15.4135 11.225 17.594 11.225 19.7494C11.225 19.975 11.175 20.0251 10.95 20.0251C9.75001 20.0251 8.52501 20.0251 7.32501 20.0251C7.12501 20.0251 7.07501 19.975 7.07501 19.7744C7.07501 15.4887 7.07501 11.203 7.07501 6.91731C7.07501 6.71681 7.15001 6.66668 7.35001 6.66668C8.50001 6.66668 9.65001 6.66668 10.8 6.66668C11 6.66668 11.075 6.74187 11.05 6.94237C11.025 7.41856 11.05 7.91981 11.05 8.44613Z"
+                                                fill="#FEFEFE" />
+                                            <path
+                                                d="M4.47501 13.3333C4.47501 15.4637 4.47501 17.5689 4.47501 19.6992C4.47501 19.9248 4.42501 20 4.17501 20C2.97501 19.9749 1.77501 20 0.575012 20C0.375012 20 0.325012 19.9499 0.325012 19.7494C0.325012 15.4637 0.325012 11.1779 0.325012 6.89223C0.325012 6.71679 0.375012 6.6416 0.550012 6.6416C1.77501 6.6416 2.97501 6.6416 4.20001 6.6416C4.42501 6.6416 4.47501 6.74185 4.47501 6.94235C4.45001 9.07268 4.47501 11.203 4.47501 13.3333Z"
+                                                fill="#FEFEFE" />
+                                            <path
+                                                d="M4.8 2.38095C4.8 3.70927 3.725 4.78697 2.4 4.78697C1.1 4.81203 0 3.70927 0 2.40602C0 1.07769 1.075 0 2.4 0C3.725 0 4.8 1.07769 4.8 2.38095Z"
+                                                fill="#FEFEFE" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_8_2">
+                                                <rect width="20" height="20" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-floot">
+                                <a href="https://www.instagram.com/hogarthworldwide/" target="_blank">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M10 1.81176C12.6588 1.81176 12.9882 1.81176 14.0471 1.85882C15.0118 1.90588 15.5529 2.07059 15.9059 2.21176C16.3765 2.4 16.7059 2.61176 17.0588 2.96471C17.4118 3.31765 17.6235 3.64706 17.8118 4.11765C17.9529 4.47059 18.1176 4.98824 18.1647 5.97647C18.2118 7.03529 18.2118 7.34118 18.2118 10.0235C18.2118 12.7059 18.2118 13.0118 18.1647 14.0706C18.1176 15.0353 17.9529 15.5765 17.8118 15.9294C17.6235 16.4 17.4118 16.7294 17.0588 17.0824C16.7059 17.4353 16.3765 17.6471 15.9059 17.8353C15.5529 17.9765 15.0353 18.1412 14.0471 18.1882C12.9882 18.2353 12.6824 18.2353 10 18.2353C7.34118 18.2353 7.01176 18.2353 5.95294 18.1882C4.98824 18.1412 4.44706 17.9765 4.09412 17.8353C3.62353 17.6471 3.29412 17.4353 2.94118 17.0824C2.58824 16.7294 2.37647 16.4 2.18824 15.9294C2.04706 15.5765 1.88235 15.0588 1.83529 14.0706C1.78824 13.0118 1.78824 12.7059 1.78824 10.0235C1.78824 7.34118 1.78824 7.03529 1.83529 5.97647C1.88235 5.01176 2.04706 4.47059 2.18824 4.11765C2.37647 3.64706 2.58824 3.31765 2.94118 2.96471C3.29412 2.61176 3.62353 2.4 4.09412 2.21176C4.44706 2.07059 4.96471 1.90588 5.95294 1.85882C7.01176 1.81176 7.34118 1.81176 10 1.81176ZM10 0C7.29412 0 6.94118 0 5.88235 0.0705882C4.82353 0.117647 4.09412 0.282353 3.45882 0.541176C2.8 0.8 2.23529 1.12941 1.69412 1.69412C1.12941 2.25882 0.8 2.8 0.541176 3.45882C0.282353 4.09412 0.117647 4.82353 0.0705882 5.88235C0 6.94118 0 7.29412 0 10C0 12.7059 0 13.0588 0.0705882 14.1176C0.117647 15.1765 0.282353 15.9059 0.541176 16.5412C0.8 17.2 1.12941 17.7647 1.69412 18.3059C2.25882 18.8706 2.8 19.2 3.45882 19.4588C4.09412 19.7176 4.82353 19.8824 5.88235 19.9294C6.94118 20 7.29412 20 10 20C12.7059 20 13.0588 20 14.1176 19.9294C15.1765 19.8824 15.9059 19.7176 16.5412 19.4588C17.2 19.2 17.7647 18.8706 18.3059 18.3059C18.8706 17.7412 19.2 17.2 19.4588 16.5412C19.7176 15.9059 19.8824 15.1765 19.9294 14.1176C20 13.0588 20 12.7059 20 10C20 7.29412 20 6.94118 19.9294 5.88235C19.8824 4.82353 19.7176 4.09412 19.4588 3.45882C19.2 2.8 18.8706 2.23529 18.3059 1.69412C17.7412 1.12941 17.2 0.8 16.5412 0.541176C15.9059 0.282353 15.1765 0.117647 14.1176 0.0705882C13.0588 0 12.7059 0 10 0Z"
+                                            fill="white" />
+                                        <path
+                                            d="M9.99999 4.87061C7.15293 4.87061 4.87057 7.17649 4.87057 10C4.87057 12.8235 7.17646 15.1294 9.99999 15.1294C12.847 15.1294 15.1294 12.8235 15.1294 10C15.1294 7.17649 12.847 4.87061 9.99999 4.87061ZM9.99999 13.3412C8.16469 13.3412 6.65881 11.8588 6.65881 10C6.65881 8.14119 8.14116 6.65884 9.99999 6.65884C11.8588 6.65884 13.3412 8.14119 13.3412 10C13.3412 11.8588 11.8353 13.3412 9.99999 13.3412Z"
+                                            fill="white" />
+                                        <path
+                                            d="M15.3412 5.8588C16.0039 5.8588 16.5412 5.32154 16.5412 4.6588C16.5412 3.99606 16.0039 3.4588 15.3412 3.4588C14.6784 3.4588 14.1412 3.99606 14.1412 4.6588C14.1412 5.32154 14.6784 5.8588 15.3412 5.8588Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-floot">
+                                <a href="https://twitter.com/hogarthww/" target="_blank">
+                                    <svg width="20" height="17" viewBox="0 0 20 17" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_9_17)">
+                                            <path
+                                                d="M6.29291 16.2471C13.8444 16.2471 17.9634 10 17.9634 4.57666C17.9634 4.39359 17.9634 4.23341 17.9405 4.05034C18.7414 3.47826 19.4279 2.746 19.9771 1.9222C19.2449 2.24256 18.4439 2.4714 17.6201 2.56293C18.4897 2.0595 19.1304 1.25858 19.4508 0.297483C18.6499 0.778032 17.7803 1.0984 16.8421 1.30435C16.087 0.503432 15.0114 0 13.8444 0C11.5789 0 9.74828 1.83066 9.74828 4.09611C9.74828 4.41648 9.79405 4.73684 9.8627 5.03432C6.4302 4.87414 3.40961 3.22654 1.39588 0.755149C1.05263 1.35011 0.846682 2.0595 0.846682 2.81465C0.846682 4.23341 1.57895 5.49199 2.67735 6.22426C2.01373 6.20137 1.373 6.01831 0.823799 5.72082C0.823799 5.74371 0.823799 5.74371 0.823799 5.76659C0.823799 7.75744 2.24256 9.40503 4.11899 9.79405C3.77574 9.88558 3.40961 9.93135 3.04348 9.93135C2.76888 9.93135 2.51716 9.90847 2.26545 9.8627C2.79176 11.4874 4.30206 12.6773 6.08696 12.7002C4.69108 13.7986 2.90618 14.4622 0.983982 14.4622C0.663616 14.4622 0.320366 14.4394 0 14.4165C1.80778 15.5606 3.98169 16.2471 6.29291 16.2471Z"
+                                                fill="white" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_9_17">
+                                                <rect width="20" height="16.2471" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-floot">
+                                <a href="https://www.facebook.com/hogarthww" target="_blank">
+                                    <svg width="10" height="19" viewBox="0 0 10 19" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M9.33628 10.6176L9.84513 7.19765H6.61504V4.98471C6.61504 4.04588 7.05752 3.15176 8.5177 3.15176H10V0.223529C10 0.223529 8.67257 0 7.38938 0C4.71239 0 2.9646 1.63176 2.9646 4.58235V7.17529H0V10.5953H2.9646V18.8435C3.56195 18.9329 4.15929 18.9776 4.80089 18.9776C5.44248 18.9776 6.03982 18.9329 6.63717 18.8435V10.6176H9.33628Z"
+                                            fill="white" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Divisor 1 -->
+                <div class="divider-logo">
+                    <div></div>
+                </div>
+
+                <!-- Logo H - Hogarth -->
+                <div class="container-center">
+                    <div class="logo-hogarth">
+                        <a href="https://www.hogarth.com/" target="_blank">
+                            <img src="./assets/icon-logo@3x.png" alt="logo">
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Divisor 2 -->
+                <div class="divider divider-logo">
+                    <div class="border-right"></div>
+                </div>
+
+                <!-- Políticas -->
+                <div class="container-right">
+                    <ul class="menu-geral">
+                        <li class="link-policy">
+                            <a href="https://www.hogarth.com/cookie-policy" target="_blank"
+                                style=" color:#ffffff; text-decoration:none;">cookie policy</a>
+                        </li>
+                        <li class="link-policy">
+                            <a href="https://www.hogarth.com/gender-pay-gap" target="_blank"
+                                style=" color:#ffffff; text-decoration:none;">gender pay gap report</a>
+                        </li>
+                        <li class="link-policy">
+                            <a href="https://www.hogarth.com/modern-slavery" target="_blank"
+                                style=" color:#ffffff; text-decoration:none;">modern slavery</a>
+                        </li>
+                        <li class="link-policy">
+                            <a href="https://www.hogarth.com/privacy-policy" target="_blank"
+                                style=" color:#ffffff; text-decoration:none;">privacy policy</a>
+                        </li>
+                        <li class="link-policy">
+                            <a href="https://www.hogarth.com/Accessibility-statement" target="_blank"
+                                style=" color:#ffffff; text-decoration:none;">accessibility statement</a>
+                        </li>
+                        <li class="link-policy">
+                            <a href="https://www.hogarth.com/" target="_blank"
+                                style=" color:#ffffff; text-decoration:none;">a WPP company</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Final do Footer -->
+    </footer>
+
+</body>
+
+</html>

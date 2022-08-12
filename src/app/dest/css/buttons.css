@@ -1,0 +1,113 @@
+.btn {
+  border: solid 3px #E95F7F;
+  color: #E95F7F;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  padding: 11px 13px 11px 17px;
+  line-height: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+.btn::after {
+  content: " ";
+  background-color: #E95F7F;
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  margin-left: 6px;
+  -webkit-mask-image: url("/assets/icon-seta@3x.svg");
+  mask-image: url("/assets/icon-seta@3x.svg");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+.btn.btn-find-out-more {
+  width: 155px;
+  height: 36px;
+  padding: 0 0 0 23px;
+}
+.btn.btn-submit {
+  width: 116px;
+  height: 42px;
+  border-color: #fff;
+  color: #fff;
+}
+.btn.btn-submit::after {
+  content: " ";
+  background-color: #fff;
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  padding-right: 12px;
+  margin-left: 6px;
+  -webkit-mask-image: url("/assets/icon-seta@3x.svg");
+  mask-image: url("/assets/icon-seta@3x.svg");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+.btn:hover {
+  border-color: #E2EF5C;
+  color: #E2EF5C;
+}
+.btn:hover::after {
+  background-color: #E2EF5C;
+}
+
+@media screen and (min-width: 1440px) {
+  .btn-contact-us {
+    border: solid 3px #E95F7F;
+    color: #E95F7F;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 11px 13px 11px 17px;
+    line-height: 22px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: none;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+  .btn-contact-us::after {
+    content: " ";
+    background-color: #E95F7F;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin-left: 6px;
+    -webkit-mask-image: url("/assets/icon-seta@3x.svg");
+    mask-image: url("/assets/icon-seta@3x.svg");
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+  }
+  .btn-contact-us:hover {
+    border-color: #E2EF5C;
+    color: #E2EF5C;
+  }
+  .btn-contact-us:hover::after {
+    background-color: #E2EF5C;
+  }
+}
