@@ -1,32 +1,23 @@
 
-# Landing Page & Email Marketing
-O projeto consiste em uma Landing Page com um formulário de envio de dados para departamentos seletos da empresa
+# Projeto
+Projeto Originals
 
 ## Tecnologias utilizadas
 - HTML
 - CSS
 - JS
-   -jquery
+- Sass
+- Gulp
 - DOCKER
 
 ## Comanandos para execução
+O comando "Gulp Watch" foi utilizado durante o desenvolvimento do projeto. Ele é utilizado para termos a visualização atualizada do resultado, assim podendo também ser alterado em tempo real. Com a finalização basta abrir a página no navegador usando seu caminho de pastas.
 
+# Instalação
 
+# Docker
+Tendo uma cópia dos documentos do projeto "docker-compose", "dockerfile" e ".env", é possível subir o ambiente pelo terminal com o comando "docker-compose up". Ele fará toda a criação em instalação de instâncias necessárias para o funcionamento do ambiente.
 
-## TO DO LIST
-1. repositorio git
-   - criar um repositorio
-   - clonar repositorio
-   - push remoto
-1. docker file
-   - template
-   - from defaults
-1. docker compose
-   - template
-   - ports
-   - volumes
-   - services
-1. pasta vue
-1. pasta laravel
-1. config banco de dados
-1. escrever o readme
+# Funcionamento
+
+O funcionamento da parte de backend é todo relacionado com a execução da API que permite o envio de formulários, que são preenchidos no formulário presente na Landing Page.
