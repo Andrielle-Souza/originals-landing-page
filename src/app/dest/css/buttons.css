@@ -68,6 +68,42 @@
   background-color: #E2EF5C;
 }
 
+.btn-contact-mob {
+  background-color: #E95F7F;
+  color: #fff;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  padding: 11px 123px 13px 115px;
+  line-height: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: none;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  border: 0;
+}
+.btn-contact-mob::after {
+  content: " ";
+  background-color: #fff;
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  margin-left: 6px;
+  -webkit-mask-image: url("/assets/icon-seta@3x.svg");
+  mask-image: url("/assets/icon-seta@3x.svg");
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
 @media screen and (min-width: 1440px) {
   .btn-contact-us {
     border: solid 3px #E95F7F;
